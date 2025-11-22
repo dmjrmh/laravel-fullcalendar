@@ -14,6 +14,45 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.9.0/fullcalendar.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+  <style>
+    #calendar {
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    .fc-toolbar {
+      background: #8c8c8c;
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 8px;
+    }
+
+    .fc-button {
+      background: #222;
+      border: none;
+      color: #fff;
+    }
+
+    .fc-button:hover {
+      background: #444;
+    }
+
+    .fc-day-header {
+      background: #f4f6f8;
+      font-weight: 600;
+    }
+
+    .fc-today {
+      background: #fff9e6;
+    }
+
+    .fc-event {
+      background: #007bff;
+      border: none;
+      color: #fff;
+      border-radius: 6px;
+    }
+  </style>
+
 </head>
 
 <body>
